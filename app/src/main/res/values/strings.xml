@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Title for the application -->
+    <string name="app_name">Antwerp</string>
+
+    <!-- Category name for attractions (TO SEE) -->
+    <string name="category_tosee">To see</string>
+
+    <!-- Category name for kids attractions (FOR KIDS) -->
+    <string name="category_forkids">For kids</string>
+
+    <!-- Category name for restaurants (TO EAT) -->
+    <string name="category_toeat">To eat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
