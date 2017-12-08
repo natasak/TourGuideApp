@@ -31,12 +31,12 @@ android:minHeight="@dimen/list_item_height">
             <TextView
                 android:id="@+id/title_text_view"
                 style="@style/TitleTextStyle"
-                tools:text="Antwerp ZOO" />
+                tools:text="@string/tosee_title_zoo" />
 
             <TextView
                 android:id="@+id/summary_text_view"
                 style="@style/SummaryTextStyle"
-                tools:text="The Antwerp ZOO is one of the oldest and best-known zoos in Europe." />
+                tools:text="@string/tosee_summary_zoo" />
 
             <ImageView
                 android:id="@+id/icon"

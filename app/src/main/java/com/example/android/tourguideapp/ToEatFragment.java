@@ -30,13 +30,13 @@ public class ToEatFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("Meat Factory", "Grote Markt 28, Antwerp", R.drawable.toeat_meat_factory, R.drawable.ic_four_half_stars));
-        words.add(new Word("Sombat Thai Cuisine", "Desguinlei 196, Antwerp.", R.drawable.toeat_sombat_thai_cuisine, R.drawable.ic_four_half_stars));
-        words.add(new Word("Billie's Bier Kafetaria", "Kammenstraat 12, Antwerp.", R.drawable.toeat_billies_bier_kafetaria, R.drawable.ic_four_half_stars));
-        words.add(new Word("Bia Mara", "Maalderijstraat 1, Antwerp.", R.drawable.toeat_bia_mara, R.drawable.ic_four_half_stars));
-        words.add(new Word("Kapitein Zeppos", "Vleminckveld 78, Antwerp.", R.drawable.toeat_kapitein_zeppos, R.drawable.ic_four_stars));
-        words.add(new Word("No Worries", "Kribbestraat 20, Antwerp.", R.drawable.toeat_no_worries, R.drawable.ic_five_stars));
-        words.add(new Word("Elfde Gebod", "Torfbrug 10, Antwerp.", R.drawable.toeat_elfde_gebod, R.drawable.ic_four_stars));
+        words.add(new Word(getString(R.string.toeat_title_meat_factory), getString(R.string.toeat_summary_meat_factory), R.drawable.toeat_meat_factory, R.drawable.ic_four_half_stars));
+        words.add(new Word(getString(R.string.toeat_title_Sombat_Thai_Cuisine), getString(R.string.toeat_summary_Sombat_Thai_Cuisine), R.drawable.toeat_sombat_thai_cuisine, R.drawable.ic_four_half_stars));
+        words.add(new Word(getString(R.string.toeat_title_billies_bier_kafetaria), getString(R.string.toeat_summary_billies_bier_kafetaria), R.drawable.toeat_billies_bier_kafetaria, R.drawable.ic_four_half_stars));
+        words.add(new Word(getString(R.string.toeat_title_bia_mara), getString(R.string.toeat_summary_bia_mara), R.drawable.toeat_bia_mara, R.drawable.ic_four_half_stars));
+        words.add(new Word(getString(R.string.toeat_title_kapitein_zeppos), getString(R.string.toeat_summary_kapitein_zeppos), R.drawable.toeat_kapitein_zeppos, R.drawable.ic_four_stars));
+        words.add(new Word(getString(R.string.toeat_title_no_worries), getString(R.string.toeat_summary_no_worries), R.drawable.toeat_no_worries, R.drawable.ic_five_stars));
+        words.add(new Word(getString(R.string.toeat_title_elfde_gebod), getString(R.string.toeat_summary_elfde_gebod), R.drawable.toeat_elfde_gebod, R.drawable.ic_four_stars));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list.

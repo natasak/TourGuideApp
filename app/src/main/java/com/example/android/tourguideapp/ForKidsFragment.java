@@ -29,12 +29,12 @@ public class ForKidsFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("Robinsontuin", "Children playground.", R.drawable.kids_robinsontuin, R.drawable.ic_outside));
-        words.add(new Word("Playground", "Children's playground.", R.drawable.kids_playground, R.drawable.ic_inside));
-        words.add(new Word("Wandeldijk", "Children's playground.", R.drawable.kids_wandeldijk, R.drawable.ic_outside));
-        words.add(new Word("Stadspark", "Children's playground.", R.drawable.kids_stadspark, R.drawable.ic_outside));
-        words.add(new Word("Park Spoor Noord", "Children's playground.", R.drawable.kids_park_spoor_noord, R.drawable.ic_outside));
-        words.add(new Word("Rivierenhof", "Children's playground, farm and storytelling", R.drawable.kids_rivierenhof, R.drawable.ic_outside));
+        words.add(new Word(getString(R.string.kids_title_robinsontuin), getString(R.string.kids_summary_robinsontuin), R.drawable.kids_robinsontuin, R.drawable.ic_outside));
+        words.add(new Word(getString(R.string.kids_title_playground), getString(R.string.kids_summary_playground), R.drawable.kids_playground, R.drawable.ic_inside));
+        words.add(new Word(getString(R.string.kids_title_wandeldijk), getString(R.string.kids_summary_wandeldijk), R.drawable.kids_wandeldijk, R.drawable.ic_outside));
+        words.add(new Word(getString(R.string.kids_title_stadspark), getString(R.string.kids_summary_stadspark), R.drawable.kids_stadspark, R.drawable.ic_outside));
+        words.add(new Word(getString(R.string.kids_title_park_spoor_noord), getString(R.string.kids_summary_park_spoor_noord), R.drawable.kids_park_spoor_noord, R.drawable.ic_outside));
+        words.add(new Word(getString(R.string.kids_title_rivierenhof), getString(R.string.kids_summary_rivierenhof), R.drawable.kids_rivierenhof, R.drawable.ic_outside));
 
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

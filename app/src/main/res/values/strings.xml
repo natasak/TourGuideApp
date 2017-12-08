@@ -6,14 +6,82 @@
     <!-- Category name for attractions (TO SEE) -->
     <string name="category_tosee">To see</string>
 
+    <!-- List of attractions (TO SEE) -->
+    <string name="tosee_title_zoo">Antwerp ZOO</string>
+    <string name="tosee_summary_zoo">One of the oldest and best-known zoos in Europe.</string>
+
+    <string name="tosee_title_ruien">The Ruien (Antwerp Canals)</string>
+    <string name="tosee_summary_ruien">A truly unique attraction, a walk through Antwerp\'s former canals and sewers.</string>
+
+    <string name="tosee_title_comics_station">Comics Station</string>
+    <string name="tosee_summary_comics_station">New indoor park based on Belgian cartoon characters at Antwerp\’s Central Station.</string>
+
+    <string name="tosee_title_city_brewery">Antwerp City Brewery</string>
+    <string name="tosee_summary_city_brewery">Experience centre of the beers of De Koninck that allows visitors to hear, see and taste the brewery\’s story.</string>
+
+    <string name="tosee_title_ecohuis">EcoHouse</string>
+    <string name="tosee_summary_ecohuis">EcoHuis is Antwerp\’s green epicentre. Here you can find out how to build and live sustainably in the city.</string>
+
+    <string name="tosee_title_silver_pavilion">The Silver Pavilion</string>
+    <string name="tosee_summary_silver_pavilion">Here in this unique location, you can admire masterpieces from DIVA\’s collection.</string>
+
+    <string name="tosee_title_carriage_ride">Carriage ride</string>
+    <string name="tosee_summary_carriage_ride">A sightseeing tour in the historical city of Antwerp on the rhythm of a draft-horse carriage.</string>
+
+    <string name="tosee_title_rubens_house">The Rubens House</string>
+    <string name="tosee_summary_rubens_house">In the heart of Antwerp is the home of Peter Paul Rubens, the famous 16th-17th--century Baroque painter.</string>
+
     <!-- Category name for kids attractions (FOR KIDS) -->
     <string name="category_forkids">For kids</string>
+
+    <!-- List of playgrounds (FOR KIDS) -->
+    <string name="kids_title_robinsontuin">Robinsontuin</string>
+    <string name="kids_summary_robinsontuin">Children\'s playground.</string>
+
+    <string name="kids_title_playground">Playground</string>
+    <string name="kids_summary_playground">Children\'s indoor playground.</string>
+
+    <string name="kids_title_wandeldijk">Wandeldijk</string>
+    <string name="kids_summary_wandeldijk">Children\'s playground.</string>
+
+    <string name="kids_title_stadspark">Stadspark</string>
+    <string name="kids_summary_stadspark">Children\'s playground.</string>
+
+    <string name="kids_title_park_spoor_noord">Park Spoor Noord</string>
+    <string name="kids_summary_park_spoor_noord">Children\'s playground.</string>
+
+    <string name="kids_title_rivierenhof">Rivierenhof</string>
+    <string name="kids_summary_rivierenhof">Children\'s playground, farm and storytelling</string>
+
+
 
     <!-- Category name for restaurants (TO EAT) -->
     <string name="category_toeat">To eat</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- List of restaurants (TO EAT) -->
+    <string name="toeat_title_meat_factory">Meat Factory</string>
+    <string name="toeat_summary_meat_factory">Grote Markt 28, Antwerp.</string>
+
+    <string name="toeat_title_Sombat_Thai_Cuisine">Sombat Thai Cuisine</string>
+    <string name="toeat_summary_Sombat_Thai_Cuisine">Desguinlei 196, Antwerp.</string>
+
+    <string name="toeat_title_billies_bier_kafetaria">Billie\'s Bier Kafetaria</string>
+    <string name="toeat_summary_billies_bier_kafetaria">Kammenstraat 12, Antwerp.</string>
+
+    <string name="toeat_title_bia_mara">Bia Mara</string>
+    <string name="toeat_summary_bia_mara">Maalderijstraat 1, Antwerp.</string>
+
+    <string name="toeat_title_kapitein_zeppos">Kapitein Zeppos</string>
+    <string name="toeat_summary_kapitein_zeppos">Vleminckveld 78, Antwerp.</string>
+
+    <string name="toeat_title_no_worries">No Worries</string>
+    <string name="toeat_summary_no_worries">Kribbestraat 20, Antwerp.</string>
+
+    <string name="toeat_title_elfde_gebod">Elfde Gebod</string>
+    <string name="toeat_summary_elfde_gebod">Torfbrug 10, Antwerp.</string>
+
+
+
 
 
 </resources>
