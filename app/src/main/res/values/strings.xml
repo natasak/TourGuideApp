@@ -54,7 +54,6 @@
     <string name="kids_summary_rivierenhof">Children\'s playground, farm and storytelling</string>
 
 
-
     <!-- Category name for restaurants (TO EAT) -->
     <string name="category_toeat">To eat</string>
 
@@ -80,8 +79,8 @@
     <string name="toeat_title_elfde_gebod">Elfde Gebod</string>
     <string name="toeat_summary_elfde_gebod">Torfbrug 10, Antwerp.</string>
 
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
