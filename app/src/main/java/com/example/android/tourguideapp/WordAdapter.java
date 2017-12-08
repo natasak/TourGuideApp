@@ -64,7 +64,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         TextView summaryTextView = (TextView) listItemView.findViewById(R.id.summary_text_view);
         // Get the summary text from the current Word object and
         // set this text on the summary text TextView
-        summaryTextView.setText(currentWord.getSummaryTexy());
+        summaryTextView.setText(currentWord.getSummaryText());
 
 
         // Find the ImageView in the list_item.xml layout with the ID image

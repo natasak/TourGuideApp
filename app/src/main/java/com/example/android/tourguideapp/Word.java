@@ -35,14 +35,16 @@ public class Word {
     }
 
     /**
-     * Create a second Word object (constructor) with icon inside/outside.
+     * Create a second Word object (constructor) with icon.
      *
      * @param titleText is title of the restaurant.
+     * @param summaryText is the short summary of the attraction or restaurant.
      * @param imageResourceId is the image resource ID.
      * @param iconResourceId is the icon image resource ID.
      */
-    public Word(String titleText, int imageResourceId, int iconResourceId) {
+    public Word(String titleText, String summaryText, int imageResourceId, int iconResourceId) {
         mTitleText = titleText;
+        mSummaryText = summaryText;
         mImageResourceId = imageResourceId;
         mIconResourceId = iconResourceId;
     }
@@ -53,7 +55,7 @@ public class Word {
      *
      * @return current summary text in the Word.
      */
-    public String getSummaryTexy() {
+    public String getSummaryText() {
         return mSummaryText;
     }
 
