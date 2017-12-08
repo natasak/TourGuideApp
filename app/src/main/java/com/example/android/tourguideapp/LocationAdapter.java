@@ -64,9 +64,18 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         // Find the ImageView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        // Get the image from the current Location object and
-        // set to the current image resource
-        imageView.setImageResource(currentLocation.getImageResourceId());
+
+        if (currentLocation.hasImage()) {
+            //Set the ImageView to the image resource specified in the current Location
+            imageView.setImageResource(currentLocation.getImageResourceId());
+
+            //Make sure the view is visible
+            imageView.setVisibility(View.VISIBLE);
+        }
+        else {
+            //Otherwise hide the ImageView (set visibility to GONE)
+            imageView.setVisibility(View.GONE);
+        }
 
         // Find the ImageView in the list_item.xml layout with the ID icon
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.icon);

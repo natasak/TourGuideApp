@@ -28,14 +28,16 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new ToSeeFragment();
         } else if (position == 1){
             return new ForKidsFragment();
-        } else {
+        } else if (position == 2) {
             return new ToEatFragment();
+        } else {
+            return new ToBuyFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
 
@@ -45,8 +47,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_tosee);
         } else if (position == 1) {
             return mContext.getString(R.string.category_forkids);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.category_toeat);
+        } else {
+            return mContext.getString(R.string.category_tobuy);
         }
     }
 }

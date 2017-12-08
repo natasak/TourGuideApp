@@ -79,8 +79,41 @@
     <string name="toeat_title_elfde_gebod">Elfde Gebod</string>
     <string name="toeat_summary_elfde_gebod">Torfbrug 10, Antwerp.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Category name for markets (TO BUY) -->
+    <string name="category_tobuy">To buy</string>
+
+    <string name="tobuy_title_vogelenmarkt">Vogelenmarkt</string>
+    <string name="tobuy_summary_vogelenmarkt">flowers, antiques, fabrics, jewellery, exotic birds, hamsters and rabbits</string>
+
+    <string name="tobuy_title_exotic_market">Exotic market</string>
+    <string name="tobuy_summary_exotic_market">local products but also Turkish, Moroccan en southern specialities</string>
+
+    <string name="tobuy_title_friday_market">Friday market</string>
+    <string name="tobuy_summary_friday_market">old furniture and small antiques are being put up for auction</string>
+
+    <string name="tobuy_title_bio_market">Bio Market</string>
+    <string name="tobuy_summary_bio_market">products with a bio quality label</string>
+
+    <string name="tobuy_title_boekenplein">Boekenplein</string>
+    <string name="tobuy_summary_boekenplein">different artists show their work in an alloyed à la Montmartre ambience. Lambermontmartre hosts a series of unique acoustic concerts.</string>
+
+    <string name="tobuy_title_market_for_tomorrow">Market for tomorrow</string>
+    <string name="tobuy_summary_market_for_tomorrow">Creative forum where beginning designers present their creations of fashion, accessories, jewels or graphic work. Ambiance pleasant bar and music.</string>
+
+    <string name="tobuy_title_brocantwerpen">Brocantwerpen</string>
+    <string name="tobuy_summary_brocantwerpen">Flea-market finds, antiques and vintage.</string>
+
+    <string name="tobuy_title_swan_market">Swan Market</string>
+    <string name="tobuy_summary_swan_market">Fashion, jewellery, art, vintage and accessories.</string>
+
+    <string name="tobuy_title_rubens_market">Rubens market</string>
+    <string name="tobuy_summary_rubens_market">the Rubens market takes you back to the 17th century when Rubens, the great master of baroque, lived. The stallholders are dressed in clothes of that era.</string>
+
+    <string name="tobuy_title_christmas_market">Christmas market</string>
+    <string name="tobuy_summary_christmas_market">Cosy Christmas market where you can have a bite while enjoying musical performances. You can also have fun on the ice rink.</string>
+
+    <string name="tobuy_title_dubieus_design">Dubieus Design</string>
+    <string name="tobuy_summary_dubieus_design">Open-air market for second-hand design near the streetfair of Offerandestraat, organised by Designcenter De Winkelhaak.</string>
 
 
 </resources>

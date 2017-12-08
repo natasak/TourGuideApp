@@ -13,7 +13,9 @@ public class Location {
     private String mSummaryText;
 
     /** Image resource ID */
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     /** Icon resource ID for the inside/outside attractions "for kids" and stars in "to eat" */
     private int mIconResourceId = NO_ICON_PROVIDED;
@@ -104,5 +106,14 @@ public class Location {
      */
     public boolean hasIcon() {
         return mIconResourceId != NO_ICON_PROVIDED;
+    }
+
+    /**
+     * Returns whether or not there is an image for this location.
+     *
+     * @return current image in the Location.
+     */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
