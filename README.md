@@ -14,4 +14,4 @@ Credit for images and text: https://www.visitantwerpen.be and https://www.uitinv
 Screen recording
 ----------------
 
-<img src="https://github.com/natasak/TourGuideApp/blob/master/tour_guide_app_video.gif" width="200">
+<img src="https://github.com/natasak/TourGuideApp/blob/master/tour_guide_app_recording.gif" width="200">
