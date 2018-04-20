@@ -1,7 +1,7 @@
 package com.example.android.tourguideapp;
 
 /** Location represents an attraction or place to eat that the user wants to go in Antwerp.
- * It contains an image, title text, summary text and number of stars depending on category.
+ * It contains an image, title text, summary text and number of stars, depending on category.
  */
 
 public class Location {
@@ -21,7 +21,6 @@ public class Location {
     private int mIconResourceId = NO_ICON_PROVIDED;
 
     private static final int NO_ICON_PROVIDED = -1;
-
 
     /**
      * Create a new Location object (constructor) with both texts and an image.
@@ -54,14 +53,13 @@ public class Location {
     /**
      * Create a third Location object (constructor) with only two texts.
      *
-     * @param titleText is title of the restaurant.
+     * @param titleText is title of the market.
      * @param summaryText is the short summary.
      */
     public Location(String titleText, String summaryText) {
         mTitleText = titleText;
         mSummaryText = summaryText;
     }
-
 
     /**
      * Get the summary text of the location.

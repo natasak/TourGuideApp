@@ -17,11 +17,9 @@ import java.util.ArrayList;
  */
 public class ToEatFragment extends Fragment {
 
-
     public ToEatFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -53,10 +51,6 @@ public class ToEatFragment extends Fragment {
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter(adapter);
 
-
-
-
         return rootView;
     }
-
 }

@@ -79,9 +79,11 @@
     <string name="toeat_title_elfde_gebod">Elfde Gebod</string>
     <string name="toeat_summary_elfde_gebod">Torfbrug 10, Antwerp.</string>
 
+
     <!-- Category name for markets (TO BUY) -->
     <string name="category_tobuy">To buy</string>
 
+    <!-- Category name for markets (TO BUY) -->
     <string name="tobuy_title_vogelenmarkt">Vogelenmarkt</string>
     <string name="tobuy_summary_vogelenmarkt">flowers, antiques, fabrics, jewellery, exotic birds, hamsters and rabbits</string>
 
@@ -114,6 +116,5 @@
 
     <string name="tobuy_title_dubieus_design">Dubieus Design</string>
     <string name="tobuy_summary_dubieus_design">Open-air market for second-hand design near the streetfair of Offerandestraat, organised by Designcenter De Winkelhaak.</string>
-
 
 </resources>

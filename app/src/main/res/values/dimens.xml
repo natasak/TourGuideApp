@@ -5,4 +5,10 @@
 
     <!-- Height of each iamge in list item -->
     <dimen name="list_image_height">88dp</dimen>
+
+    <!-- Margins and paddings -->
+    <dimen name="margin22">22dp</dimen>
+    <dimen name="margin11">11dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin5">5dp</dimen>
 </resources>

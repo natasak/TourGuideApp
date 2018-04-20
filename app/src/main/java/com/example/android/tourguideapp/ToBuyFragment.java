@@ -15,11 +15,9 @@ import java.util.ArrayList;
  */
 public class ToBuyFragment extends Fragment {
 
-
     public ToBuyFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -40,7 +38,6 @@ public class ToBuyFragment extends Fragment {
         locations.add(new Location(getString(R.string.tobuy_title_christmas_market), getString(R.string.tobuy_summary_christmas_market)));
         locations.add(new Location(getString(R.string.tobuy_title_dubieus_design), getString(R.string.tobuy_summary_dubieus_design)));
 
-
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
@@ -56,10 +53,6 @@ public class ToBuyFragment extends Fragment {
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter(adapter);
 
-
-
-
         return rootView;
     }
-
 }

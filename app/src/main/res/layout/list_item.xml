@@ -7,19 +7,18 @@ android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:minHeight="@dimen/list_item_height">
 
-
     <ImageView
         android:id="@+id/image"
-        android:layout_marginTop="22dp"
-        android:layout_marginLeft="11dp"
+        android:layout_marginTop="@dimen/margin22"
+        android:layout_marginLeft="@dimen/margin11"
         android:layout_width="@dimen/list_image_height"
         android:layout_height="@dimen/list_image_height" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="16dp"
-        android:paddingRight="11dp"
+        android:paddingLeft="@dimen/margin16"
+        android:paddingRight="@dimen/margin11"
         android:id="@+id/text_container" >
 
         <LinearLayout
@@ -40,7 +39,7 @@ android:minHeight="@dimen/list_item_height">
 
             <ImageView
                 android:id="@+id/icon"
-                android:paddingTop="5dp"
+                android:paddingTop="@dimen/margin5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

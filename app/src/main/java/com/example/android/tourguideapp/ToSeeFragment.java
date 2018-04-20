@@ -16,11 +16,9 @@ import java.util.ArrayList;
  */
 public class ToSeeFragment extends Fragment {
 
-
     public ToSeeFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -38,7 +36,6 @@ public class ToSeeFragment extends Fragment {
         locations.add(new Location(getString(R.string.tosee_title_carriage_ride), getString(R.string.tosee_summary_carriage_ride), R.drawable.tosee_carriage_ride));
         locations.add(new Location(getString(R.string.tosee_title_rubens_house), getString(R.string.tosee_summary_rubens_house), R.drawable.tosee_rubens_house));
 
-
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
@@ -54,10 +51,6 @@ public class ToSeeFragment extends Fragment {
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter(adapter);
 
-
-
-
         return rootView;
     }
-
 }
