@@ -2,8 +2,7 @@
 
 Android Tour Guide App about city of Antwerp at Udacity's "Android Basics" series.
 
-Three categories (to see, for kids and to eat), which are implemented in fragments. Categories have custom list view and constructor.
-
+Four categories (to see, for kids, to eat and to buy), which are implemented in fragments. Categories have custom list view and constructor. User navigates between lists in Fragments using ViewPager plus TabLayout.
 
 Style and theme
 ---------------
